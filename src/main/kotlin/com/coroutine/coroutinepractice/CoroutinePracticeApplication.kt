@@ -1,5 +1,6 @@
 package com.coroutine.coroutinepractice
 
+import kotlinx.coroutines.*
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
@@ -7,5 +8,9 @@ import org.springframework.boot.runApplication
 class CoroutinePracticeApplication
 
 fun main(args: Array<String>) {
-    runApplication<CoroutinePracticeApplication>(*args)
+
+runApplication<CoroutinePracticeApplication>(*args)
 }
+
+
+
